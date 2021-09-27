@@ -13,6 +13,8 @@ background-color: #FFFFFF ;
 font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 500;
+
+margin: 0;
 }
 
 
@@ -43,8 +45,9 @@ button {
 
 .container {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
 }
 
 /* цвет основного текста #757575 */
