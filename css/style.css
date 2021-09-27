@@ -1,0 +1,426 @@
+:root {
+--primary-text-color:#757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--hero-color:#2F303A ;
+}
+
+
+body {
+color:#757575 ;
+background-color: #FFFFFF ;
+
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 500;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+a:hover{
+    color: var(--accent-color);
+}
+
+.section-title,
+.comand-title,
+.skils-title,
+.img-title,
+.pic-title
+ {
+    color:var(--title-text-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* цвет основного текста #757575 */
+
+/* вторичный цвет текста #212121 */
+
+/* белый цвет #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* цвет героя #2F303A */
+
+
+/* шапка сайта */
+
+
+.logo {
+color: #212121;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+.logo-color {
+    color: #2196F3 ;
+}
+
+/* навигация сайта */
+
+.site-nav {
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+letter-spacing: 0.02em;
+}
+.site-nav .link {
+    color: var(--title-text-color) ;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:var(--accent-color);
+}
+
+.site-nav .link.current {
+   color: #2196F3;
+}
+
+.nav-studio{
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+.nav-portfolio {
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+.nav-contakt{
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+.link-gmail{
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+.link-phone {
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+
+/* Герой */
+
+.section-hero {
+position: absolute;
+width: 1600px;
+height: 600px;
+top: 80px;
+background-color: var(--hero-color);
+}
+
+h1 {
+font-weight:700;
+font-size: 44px;
+line-height: 1.3;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.section-hero  button {
+background-color: var(--accent-color);
+font-size: 16px;
+font-weight: 700;
+color: #FFFFFF;
+}
+
+/* Достоинства */
+
+ .slogan-one >h3 {
+font-weight:700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.slogan-one >p {
+font-weight:400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.slogan-two >h3 {
+font-weight:700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.slogan-two >p {
+font-weight:400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.slogan-three >h3 {
+font-weight:700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.slogan-three >p {
+font-weight:400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.slogan-four >h3 {
+font-weight:700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.slogan-four >p {
+font-weight:400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+
+
+/* Чем мы занимаемся */
+
+.skils-title {
+font-size: 36px;
+line-height: 1.7;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+
+.section-comand {
+background: #F5F4FA;
+}
+
+.comand-title {
+font-weight:700;
+font-size: 36px;
+line-height: 1.7;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.img-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+ .img-subtitle {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.img-igor {
+text-align: center;
+background: #FFFFFF;
+}
+
+.img-olga{
+text-align: center;
+background: #FFFFFF;
+}
+
+.img-nik {
+text-align: center;
+background: #FFFFFF;
+}
+
+.img-mik {
+text-align: center;
+background: #FFFFFF;
+}
+
+/* Футер */
+
+footer { 
+background: #2F303A;
+}
+
+.footer .logo { 
+font-weight: 700;       
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer >a:hover {
+    color: var(--accent-color);
+}
+
+address {
+    font-style: normal;
+}
+
+
+.footer  address  p {
+
+font-weight: 400;    
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-gmail {
+font-weight:400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color:rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone {
+font-weight:400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color:rgba(255, 255, 255, 0.6);
+}
+
+
+/* Portfolio */
+.section-portfolio .title {
+    color: var(--title-text-color);
+} 
+/* секция кнопок */
+.btn-portfolio {
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--title-text-color);
+background-color: #F5F4FA;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+
+/* основной контент */
+
+.btn-all {
+
+}
+
+.btn-web {
+
+}
+
+.btn-soft{
+
+}
+
+.btn-diz{
+
+}
+
+.btn-mrct {
+
+}
+
+
+.pic-tehno {
+ background: #FFFFFF;
+}
+
+.pic-nogs {
+background: #FFFFFF;
+}
+
+.pic-seafood {
+background: #FFFFFF;
+}
+
+.pic-prime {
+background: #FFFFFF;
+}
+
+.pic-boxes {
+background: #FFFFFF;
+}
+
+.pic-ihnb{
+background: #FFFFFF;
+}
+
+.pic-le {
+background: #FFFFFF;
+}
+
+.pic-lab {
+background: #FFFFFF;
+}
+
+.pic-gb {
+    background: #FFFFFF;
+}
+
+.pic-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.pic-subtitle {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color: #757575;
+}
