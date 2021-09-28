@@ -400,8 +400,11 @@ margin: 9px 0 0 0 ;
 /* секция кнопок */
 
 .section-button ul {
-    padding-left: 471px;
-    margin: 94px 0 0 0;
+    display: flex;
+    justify-content:center;
+
+    padding:94px 0 0 0;
+    margin:0 0 ;
 }
 
 .btn-portfolio {
@@ -429,22 +432,28 @@ display: inline-block;
 
 
 .btn-all {
+    
+    margin-right: 8px;
 
 }
 
 .btn-web {
+    margin-right: 8px;
 
 }
 
 .btn-soft{
+    margin-right: 8px;
 
 }
 
 .btn-diz{
+    margin-right: 8px;
 
 }
 
 .btn-mrct {
+    margin-right: 8px;
 
 }
 
@@ -452,47 +461,70 @@ display: inline-block;
 
 .section-portfolio .title {
     color: var(--title-text-color);
+
 } 
 
 .section-portfolio ul {
-padding-left: 191px;  
-margin-top: 50px;  
+padding:50px 0 0 0;  
+margin:0 0;  
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
 
-.pic-tehno {
+.pic-tehno  {
  background: #FFFFFF;
+
+ margin: 0 30px 30px 0;
 }
 
-.pic-nogs {
+.pic-nogs  {
 background: #FFFFFF;
+
+margin: 0 30px 30px 0;
 }
 
-.pic-seafood {
+.pic-seafood li{
 background: #FFFFFF;
+
+margin: 0 30px 30px 0;
 }
 
 .pic-prime {
 background: #FFFFFF;
+
+margin: 0 30px 30px 0;
 }
 
 .pic-boxes {
 background: #FFFFFF;
+
+margin: 0 30px 30px 0;
 }
 
-.pic-ihnb{
+.pic-ihnb li {
 background: #FFFFFF;
+
+margin: 0 30px 30px 0;
 }
 
-.pic-le {
+.pic-le  {
 background: #FFFFFF;
+
+margin: 0 30px 30px 0;
 }
 
 .pic-lab {
 background: #FFFFFF;
+
+margin: 0 30px 30px 0;
 }
 
-.pic-gb {
+.pic-gb li{
     background: #FFFFFF;
+
+    margin: 0 30px 30px 0;
 }
 
 .pic-title {
@@ -500,6 +532,9 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
+
+margin: 0 0;
+padding: 20px 0 0 24px;
 }
 
 .pic-subtitle {
@@ -508,4 +543,7 @@ font-size: 16px;
 line-height: 1.8;
 letter-spacing: 0.03em;
 color: #757575;
+
+margin: 0 0;
+padding: 4px 24px 20px;
 }
