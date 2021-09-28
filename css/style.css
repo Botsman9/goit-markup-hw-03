@@ -63,6 +63,9 @@ button {
 
 /* шапка сайта */
 
+.head .logo {
+    margin-left: 200px;
+}
 
 .logo {
 color: #212121;
@@ -72,6 +75,8 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
+
+
 }
 
 .logo-color {
@@ -86,6 +91,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 letter-spacing: 0.02em;
 }
+
 .site-nav .link {
     color: var(--title-text-color) ;
 
@@ -174,6 +180,17 @@ display: inline-block;
 
 /* Достоинства */
 
+.section-slogan {
+margin-top: 774px;
+margin-left: 0;
+margin-right: 0;
+padding-left: 211px;
+    
+}
+.section-slogan ul {
+    padding: 0 0;
+}
+
  .slogan-one >h3 {
 font-weight:700;
 font-size: 14px;
@@ -238,6 +255,17 @@ letter-spacing: 0.03em;
 
 /* Чем мы занимаемся */
 
+.skils {
+margin-top: 94px;
+margin-left: 0;
+margin-right: 0;
+padding: 0 15px;   
+}
+
+.skils ul {
+ padding: 0 0 0 200px;   
+}
+
 .skils-title {
 font-size: 36px;
 line-height: 1.7;
@@ -249,7 +277,14 @@ letter-spacing: 0.03em;
 
 .section-comand {
 background: #F5F4FA;
+
+margin-top: 154px;
+margin-left: auto;
+margin-right: auto;
+padding-: 0 15px;   
+
 }
+
 
 .comand-title {
 font-weight:700;
@@ -257,6 +292,7 @@ font-size: 36px;
 line-height: 1.7;
 text-align: center;
 letter-spacing: 0.03em;
+
 }
 
 .img-title {
@@ -301,6 +337,7 @@ background: #FFFFFF;
 
 footer { 
 background-color: var(--hero-color);
+padding: 60px 0 0 0;
 }
 
 .footer .logo { 
@@ -309,6 +346,8 @@ font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+padding-left:201px;
+
 }
 
 .footer >a:hover {
@@ -317,8 +356,12 @@ color: #FFFFFF;
 
 address {
     font-style: normal;
+    padding-left: 201px;
 }
-
+ address ul {
+     padding: 0 0;
+     margin: 0 0;
+ }
 
 .footer  address  p {
 
@@ -327,6 +370,8 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+
+margin: 14px 0 0 0 ;
 }
 
 .footer-gmail {
@@ -335,6 +380,8 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 color:rgba(255, 255, 255, 0.6);
+
+margin:  9px 0 0 0;
 }
 
 .footer-phone {
@@ -343,14 +390,20 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 color:rgba(255, 255, 255, 0.6);
+
+margin: 9px 0 0 0 ;
 }
 
 
 /* Portfolio */
-.section-portfolio .title {
-    color: var(--title-text-color);
-} 
+ 
 /* секция кнопок */
+
+.section-button ul {
+    padding-left: 471px;
+    margin: 94px 0 0 0;
+}
+
 .btn-portfolio {
  font-weight: 500;
 font-size: 16px;
@@ -374,7 +427,6 @@ display: inline-block;
 }
 
 
-/* основной контент */
 
 .btn-all {
 
@@ -396,6 +448,16 @@ display: inline-block;
 
 }
 
+/* Основной контент */
+
+.section-portfolio .title {
+    color: var(--title-text-color);
+} 
+
+.section-portfolio ul {
+padding-left: 191px;  
+margin-top: 50px;  
+}
 
 .pic-tehno {
  background: #FFFFFF;
