@@ -15,6 +15,13 @@ ul {
     margin-bottom: 0;
 
 }
+
+img {
+    display: block;
+    width: 100%
+
+}
+
 :root {
 --primary-text-color:#757575;
 --title-text-color:#212121;
