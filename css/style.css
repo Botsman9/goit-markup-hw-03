@@ -15,7 +15,6 @@ ul {
     margin-bottom: 0;
 
 }
-
 :root {
 --primary-text-color:#757575;
 --title-text-color:#212121;
@@ -586,9 +585,7 @@ flex-wrap: wrap;
 
 .section-portfolio li{
 background: #FFFFFF;
-border-left: 1px solid #EEEEEE;
-border-right: 1px solid #EEEEEE;
-border-bottom: 1px solid #EEEEEE;
+
 margin-bottom: 30px;
 
 }
@@ -614,4 +611,11 @@ color: #757575;
 margin: 0 0;
 padding: 4px 24px 20px;
 
+}
+
+.cart {
+    background: #FFFFFF;
+    border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
 }
