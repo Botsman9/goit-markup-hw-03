@@ -1,3 +1,18 @@
+/* Reset */
+h1,
+h2,h3,h4,h5,h6 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
 :root {
 --primary-text-color:#757575;
 --title-text-color:#212121;
@@ -45,7 +60,7 @@ button {
 
 .container {
     width: 1200px;
-   margin: 0 auto;
+   margin: 0;
    padding-left: 15px;
    padding-right: 15px;
 }
@@ -63,6 +78,15 @@ button {
 
 /* шапка сайта */
 
+nav{
+    display: flex;
+}
+.container >ul {
+    display: flex;
+}
+.head >.container {
+display: flex;
+}
 .head .logo {
     margin-left: 200px;
 }
@@ -90,6 +114,8 @@ font-size: 14px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 letter-spacing: 0.02em;
+
+display: flex;
 }
 
 .site-nav .link {
@@ -159,7 +185,8 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 
-margin-top: 200px;
+padding-top: 280px;
+margin: 0;
 }
 
 .section-hero  button {
@@ -174,6 +201,7 @@ text-align: center;
 padding: 10px 32px;
 margin-top: 30px;
 
+
 display: inline-block;
 
 }
@@ -181,14 +209,18 @@ display: inline-block;
 /* Достоинства */
 
 .section-slogan {
-margin-top: 774px;
+margin-top: 0;
 margin-left: 0;
 margin-right: 0;
-padding-left: 211px;
+padding-left: 0;
+
+
     
 }
 .section-slogan ul {
-    padding: 0 0;
+    padding-top:774px;
+
+    display: flex;
 }
 
  .slogan-one >h3 {
@@ -256,14 +288,18 @@ letter-spacing: 0.03em;
 /* Чем мы занимаемся */
 
 .skils {
-margin-top: 94px;
+margin-top: 0;
 margin-left: 0;
 margin-right: 0;
-padding: 0 15px;   
+padding-top: 94px ; 
+
+
+  
 }
 
 .skils ul {
- padding: 0 0 0 200px;   
+ display: flex;  
+ padding-top: 50px;
 }
 
 .skils-title {
@@ -271,6 +307,7 @@ font-size: 36px;
 line-height: 1.7;
 text-align: center;
 letter-spacing: 0.03em;
+margin: 0;
 }
 
 /* Наша команда */
@@ -279,8 +316,8 @@ letter-spacing: 0.03em;
 background: #F5F4FA;
 
 margin-top: 154px;
-margin-left: auto;
-margin-right: auto;
+margin-left: 0;
+margin-right: 0;
 padding-: 0 15px;   
 
 }
@@ -293,6 +330,14 @@ line-height: 1.7;
 text-align: center;
 letter-spacing: 0.03em;
 
+margin: 0;
+padding-top: 94px;
+
+}
+
+.section-comand ul {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .img-title {
