@@ -59,6 +59,7 @@ a:hover{
 
 button {
     cursor: pointer;
+    border-color: transparent;
 }
 
 .container {
@@ -251,8 +252,7 @@ padding-left: 0;
 
 
 .section-slogan ul {
-    width: 1170px;
-    height: 101px;
+    
     padding-top: 774px;
 
     display: flex;
@@ -584,7 +584,7 @@ justify-content: space-between;
 flex-wrap: wrap;
 }
 
-main ul li{
+.section-portfolio li{
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 margin-bottom: 30px;
