@@ -586,10 +586,13 @@ flex-wrap: wrap;
 
 .section-portfolio li{
 background: #FFFFFF;
-border: 1px solid #EEEEEE;
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
 margin-bottom: 30px;
 
 }
+
 
 .pic-title {
 font-weight: 700;
@@ -610,4 +613,5 @@ color: #757575;
 
 margin: 0 0;
 padding: 4px 24px 20px;
+
 }
