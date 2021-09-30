@@ -7,6 +7,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -81,6 +82,10 @@ button {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section {
+  padding: 94px 0;
 }
 
 /* шапка сайта */
@@ -164,6 +169,8 @@ button {
 }
 
 .header-contacts {
+  font-weight: 500;
+
   padding-top: 32px;
   display: flex;
   margin-left: auto;
@@ -187,6 +194,7 @@ button {
 .section-hero {
   background-color: var(--hero-color);
   text-align: center;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -196,8 +204,6 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--h1-text-color);
-
-  padding-top: 200px;
 }
 
 .hero-button {
@@ -211,7 +217,6 @@ button {
 
   padding: 10px 32px;
   margin-top: 30px;
-  margin-bottom: 200px;
 
   display: inline-block;
 }
@@ -222,22 +227,15 @@ button {
 
 /* Достоинства */
 
-.section-slogan {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .slogan-list {
-  padding-top: 94px;
-
   display: flex;
 }
 
 .slogan {
   margin-right: 30px;
 }
-.slogan .four {
-  margin-right: -30px;
+.slogan:not(:last-child) {
+  margin-right: 30px;
 }
 .slogan-title {
   font-weight: 700;
@@ -257,10 +255,8 @@ button {
 }
 
 /* Чем мы занимаемся */
-
 .section-skils {
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 0;
 }
 
 .skils-title {
@@ -269,15 +265,12 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 
-  padding-top: 94px;
-
   display: flex;
   justify-content: center;
 }
 
 .skils-list {
   margin-top: 50px;
-  padding-bottom: 94px;
 
   display: flex;
   justify-content: space-between;
@@ -295,8 +288,6 @@ button {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: center;
-
-  padding-top: 94px;
 }
 
 .comand-list {
@@ -347,6 +338,7 @@ button {
 
 .footer {
   background-color: var(--hero-color);
+  padding: 60px;
 }
 
 .footer .logo {
@@ -355,8 +347,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
 
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   color: var(--h1-text-color);
 
@@ -381,9 +372,6 @@ button {
   line-height: 1.7;
   letter-spacing: 0.03em;
 
-  padding-top: 9px;
-  padding-bottom: 9px;
-
   color: var(--h1-text-color);
 }
 
@@ -392,6 +380,9 @@ button {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
+  margin-top: 9px;
+  margin-bottom: 9px;
 
   color: var(--h1andadres-text-color);
 }
@@ -463,11 +454,20 @@ button {
   overflow: hidden;
 }
 
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 90px;
+}
+
+.portfolio-button-list {
+  padding: 0;
+}
+
 .portfolio-list {
   margin-top: 50px;
   margin-right: -30px;
+  margin-bottom: -30px;
 
-  padding-bottom: 90px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
