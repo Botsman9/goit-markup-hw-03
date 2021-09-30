@@ -243,7 +243,7 @@ button {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .slogan-subtitle {
@@ -319,7 +319,7 @@ button {
   font-size: 16px;
   line-height: 1.2;
 
-  color: #212121;
+  color: var(--title-text-color);
   letter-spacing: 0.03em;
 
   padding-top: 30px;
