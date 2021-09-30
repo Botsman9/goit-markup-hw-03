@@ -133,7 +133,7 @@ button {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav .current {
   color: var(--accent-color);
 }
 
@@ -411,66 +411,58 @@ button {
 
 /* секция кнопок */
 
-.section-button ul {
+.portfolio-button-list {
+  padding-top: 94px;
   display: flex;
   justify-content: center;
-
-  padding: 94px 0 0 0;
-  margin: 0 0;
 }
 
-.btn-portfolio {
+.portfolio-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   min-width: 73px;
+
   color: var(--title-text-color);
   background-color: #f5f4fa;
   border-radius: 4px;
 
   padding: 6px 22px;
-
-  display: inline-block;
 }
 
-.btn-portfolio:hover,
-.btn-portfolio:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
 
-.btn-all {
+.btn {
   margin-right: 8px;
 }
-
-.btn-web {
-  margin-right: 8px;
-}
-
-.btn-soft {
-  margin-right: 8px;
-}
-
-.btn-diz {
-  margin-right: 8px;
-}
-
-.btn-mrct {
+.btn:not(last-child) {
   margin-right: 8px;
 }
 
 /* Основной контент */
 
-.section-portfolio .title {
-  color: var(--title-text-color);
+.vusually-hidden  {
+   position:  absolute;
+   width: 1px;
+   height:  1px;
+   margin:  -1px;
+   padding:  0;
+   border:  0;
+
+   white-space:  nowrap;
+   clip-path:  inset(100%);
+   clip:  rect(0 0 0 0);
+   overflow:  hidden:
 }
 
-.section-portfolio ul {
-  padding: 50px 0 94px 0;
-  margin: 0 0;
 
+.portfolio-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -509,6 +501,5 @@ button {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-.section-portfolio img {
-  border: ;
-}
+
+
